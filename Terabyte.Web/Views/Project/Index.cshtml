@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Terabyte.Web.Models.ProjectVM>
+@{
+    ViewBag.Title = "Index";
+Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/global_assets/css/icons/icomoon/styles.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/bootstrap.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/bootstrap_limitless.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/layout.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/components.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/colors.min.css") rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <script src=@Url.Content("/global_assets/js/main/jquery.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/main/bootstrap.bundle.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/loaders/blockui.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/ui/ripple.min.js")></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <script src=@Url.Content("/global_assets/js/plugins/visualization/d3/d3.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/visualization/d3/d3_tooltip.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/styling/switchery.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/ui/moment/moment.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/pickers/daterangepicker.js")></script>
+    <script src=@Url.Content("/assets/js/app.js")></script>
+    <script src=@Url.Content("/global_assets/js/demo_pages/dashboard.js")></script>
+    <!-- Theme JS files -->
+    <script src=@Url.Content("/global_assets/js/plugins/buttons/spin.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/buttons/ladda.min.js")></script>
+
+    <script src=@Url.Content("/global_assets/js/demo_pages/components_buttons.js")></script>
+    <!-- /theme JS files -->
+</head>
+<body>
+    <div class="content">
+        <br />
+        <p>
+            <button style=" background-color:deepskyblue; margin-left:80%" class="btn btn-labeled btn-labeled-left btn-sm"><b><i class="icon-mail5"></i></b>@Html.ActionLink("Send Email", "Email")</button>
+
+        <p><button type="button" style="background-color:grey; margin-left:80%" class="btn "><i class="icon-add mr-2" style="color:deepskyblue"></i>@Html.ActionLink("Create New Project", "Create")</button></p>
+
+
+
+            <div class="card">
+                <div class="card-body">
+
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <div class="form-group-feedback form-group-feedback-left">
+                                @Html.TextBox("searchString", "", new { @class = "form-control form-control-lg" })<br /><div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+
+    <ul class="list-inline list-inline-condensed mb-0">
+        <li class="list-inline-item dropdown">
+            <a href="#" class="btn btn-link text-default dropdown-toggle" data-toggle="dropdown">
+                <i class="icon-stack2 mr-2"></i>
+                All categories
+            </a>
+
+
+        </li>
+    </ul>
+
+
+</div><button type="submit" id="submit" style="margin-left:90%; margin-top:-6%; background-color:deepskyblue" class="btn btn-labeled btn-labeled-left btn-sm"><b><i class="icon-search4"></i></b> Search</button>
+
+
+                                <div class="form-control-feedback form-control-feedback-lg">
+                                    <i class="icon-search4 text-muted"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                       
+                    </form>
+                </div>
+            </div>
+
+
+
+
+
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+
+
+                @Html.Partial("_DisplayProject", item);//injection de la vue partial
+
+
+            }
+        }
+        </div>
+</body></html>
+
+

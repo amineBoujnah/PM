@@ -1,0 +1,132 @@
+﻿@model Terabyte.Web.Models.TaskModel
+@{
+    ViewBag.Title = "_DisplayTask";
+    Layout = "~/Views/Shared/lolo.cshtml";
+    string path = "~/Content/Upload/" + @Model.ImageUrl;
+
+}
+
+
+
+@*<div style="float:left; margin:5px;">*@
+
+
+
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h3>Name :</h3>
+        <h3>@Html.DisplayFor(modelItem => Model.name)</h3>
+    </div>
+
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h1><img alt="Task" src="@Url.Content(path)" width="70" height="70" /></h1>
+    </div>
+
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h3>Priority :</h3>
+        <h3>@Html.DisplayFor(modelItem => Model.priority)</h3>
+    </div>
+
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h3>Start Date :</h3>
+        <h3>@Html.DisplayFor(modelItem => Model.start_date)</h3>
+    </div>
+
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h3>End Date :</h3>
+        <h3>@Html.DisplayFor(modelItem => Model.end_date)</h3>
+    </div>
+    @if (Model.complexity.ToString().Equals("Low")) { 
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h3>Complexity :</h3>
+        <h3 id="pop5">@Html.DisplayFor(modelItem => Model.complexity)</h3>
+    </div>
+}
+@if (Model.complexity.ToString().Equals("Medium"))
+{
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h3>Complexity :</h3>
+        <h3 id="pop4">@Html.DisplayFor(modelItem => Model.complexity)</h3>
+    </div>
+}
+
+@if (Model.complexity.ToString().Equals("Hight"))
+{
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h3>Complexity :</h3>
+        <h3 id="pop3">@Html.DisplayFor(modelItem => Model.complexity)</h3>
+    </div>
+}
+    <div class="price-wrap d-flex flex-row justify-content-center">
+        <h3>State :</h3>
+        <h3>@Html.DisplayFor(modelItem => Model.state)</h3>
+    </div>
+
+
+
+     @*<div class="price-wrap d-flex flex-row justify-content-center">*@
+
+
+            <p>@Html.ActionLink("Details", "Details", new { id = Model.TaskId })</p>
+            <p>@Html.ActionLink("Metre a jour", "Edit", new { id = Model.TaskId })</p>
+            <p>@Html.ActionLink("Supprimer", "Delete", new { id = Model.TaskId })</p>
+
+        @*<a href="@Url.Action("Details", "Tache", new { id = Model.TaskId })" >  Details</a>
+        <a href="@Url.Action("Edit"   , "Tache", new { id = Model.TaskId })" > Modifier</a>
+        <a href="@Url.Action("Delete" , "Tache", new { id = Model.TaskId })" >Supprimer</a>*@
+
+    @*</div>*@
+@*</div>*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<div class="col-lg-3 col-sm-4 col-xs-6 r-full-width">
+    <div class="team-column">
+        <img src="@Url.Content(path)" width="50" height="200" alt="">
+        <span class="player-number">12</span>
+        <div class="team-detail">
+            <h5><a href="#">Lionel Andrés Messi</a></h5>
+            <span class="desination">Defender</span>
+            <div class="detail-inner">
+                <ul>
+                    <li>Born</li>
+                    <li>Position</li>
+                    <li>Squad number</li>
+                    <li>Previous Club</li>
+                    <li>Fallow us on</li>
+                </ul>
+                <ul>
+                    <li>August 31, 1988</li>
+                    <li>Goalkeeper</li>
+                    <li>13</li>
+                    <li>Atletico Nacional</li>
+                    <li>
+                        <ul class="social-icons">
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                            <li><a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>*@

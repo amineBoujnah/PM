@@ -1,0 +1,23 @@
+﻿@model Terabyte.Web.Models.ProjectVM
+
+@{
+    ViewBag.Title = "Email";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+
+<h2>Email</h2>
+
+<form method="post" action="Email">
+
+    <div class="container">
+        <span class="form-control-static"> Receiver: </span>
+        <input class="form-control" type="text" name="receiverEmail" /> <br />
+        <span class="form-control-static"> Subject: </span>
+        <input class="form-control" type="text" name="subject" /> <br />
+        <span class="form-control-static"> Message: </span>
+        <input class="form-control" type="text" name="message" /> <br />
+        <input class="btn btn-primary" type="submit" value="Send" />
+    </div>
+</form>
+
+

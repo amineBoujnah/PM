@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TerabyeModelStoreContainer" CdmEntityContainer="TerabyeEntities">
+    <EntitySetMapping Name="Taches">
+      <EntityTypeMapping TypeName="TerabyeModel.Tach">
+        <MappingFragment StoreEntitySet="Taches">
+          <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start_date" ColumnName="start_date" />
+          <ScalarProperty Name="end_date" ColumnName="end_date" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="complexity" ColumnName="complexity" />
+          <ScalarProperty Name="priority" ColumnName="priority" />
+          <ScalarProperty Name="progress" ColumnName="progress" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

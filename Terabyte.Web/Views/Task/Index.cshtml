@@ -1,0 +1,138 @@
+﻿@model IEnumerable<Terabyte.Web.Models.TaskModel>
+
+@{
+    //ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+
+
+
+<style>
+    #bom {
+        background-color: rgba(0,0,0,.5);
+    }
+
+    #pop {
+        border-color: orange;
+        border-width: 3px;
+        border-radius: 8px;
+        background-color: #EDEDED;
+    }
+
+    #pop1 {
+        border-color: red;
+        border-width: 3px;
+        border-radius: 8px;
+        background-color: #EDEDED;
+    }
+
+
+    #pop2 {
+        border-color: green;
+        border-width: 3px;
+        border-radius: 8px;
+        background-color: #EDEDED;
+    }
+    #pop3{
+        color: red;
+        font-weight: bold;
+    }
+    #pop4{
+        color: orange;
+        font-weight: bold;
+    }
+    #pop5{
+        color: green;
+        font-weight: bold;
+    }
+</style>
+
+
+<div class="content">
+    <br />
+    <p>
+
+
+    <p><button type="button" style="background-color:grey; margin-left:80%" class="btn "><i class="icon-add mr-2" style="color:deepskyblue"></i>@Html.ActionLink("Create New Task", "Create")</button></p>
+
+
+  
+    
+
+        <div class="card">
+            <div class="card-body">
+
+                <form action="#">
+                    <div class="input-group mb-3">
+                        <div>
+                            @Html.TextBox("searchString", "", new { @class = "form-control form-control-lg" })<br />
+                            <div class="d-md-flex align-items-md-center flex-md-wrap text-center text-md-left">
+                            </div>
+                            @*<button type="submit" id="submit" style="margin-left:90%; margin-top:-6%; background-color:deepskyblue" class="btn btn-labeled btn-labeled-left btn-sm"><b>
+                                <i class="icon-search4"></i></b> Search</button>*@
+                            <div class="form-control-feedback form-control-feedback-lg">
+                                <i class="icon-search4 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+
+
+
+
+
+    @foreach (var item in Model)
+    {
+
+
+
+        if (item.state.ToString().Equals("Doing"))
+        {
+            <div class="col-lg-4">
+                <div class="single-price no-padding" id="pop">
+
+                    <div class="price-wrap d-flex flex-row justify-content-center">
+                        <h1>@Html.Partial("_DisplayTask", item)</h1>
+                    </div>
+
+
+                </div>
+            </div>
+        }
+        <p></p>
+        if (item.state.ToString().Equals("To_Do"))
+        {
+            <div class="col-lg-4">
+                <div class="single-price no-padding" id="pop1">
+
+                    <div class="price-wrap d-flex flex-row justify-content-center">
+                        <h1>@Html.Partial("_DisplayTask", item)</h1>
+                    </div>
+
+
+                </div>
+            </div>
+        }
+        <p></p>
+        if (item.state.ToString().Equals("Done"))
+        {
+            <div class="col-lg-4">
+                <div class="single-price no-padding" id="pop2">
+
+                    <div class="price-wrap d-flex flex-row justify-content-center">
+                        <h1>@Html.Partial("_DisplayTask", item)</h1>
+                    </div>
+
+
+                </div>
+            </div>
+        }
+    }
+
+</div>
+
+
+

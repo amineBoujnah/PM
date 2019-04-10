@@ -1,0 +1,210 @@
+﻿@model Terabyte.Web.Models.ProjectVM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/global_assets/css/icons/icomoon/styles.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/bootstrap.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/bootstrap_limitless.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/layout.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/components.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/colors.min.css") rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <script src=@Url.Content("/global_assets/js/main/jquery.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/main/bootstrap.bundle.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/loaders/blockui.min.js")></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <!-- Theme JS files -->
+    <script src=@Url.Content("global_assets/js/plugins/notifications/jgrowl.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/notifications/noty.min.js")></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/global_assets/css/icons/icomoon/styles.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/bootstrap.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/bootstrap_limitless.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/layout.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/components.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/colors.min.css") rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <script src=@Url.Content("/global_assets/js/main/jquery.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/main/bootstrap.bundle.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/loaders/blockui.min.js")></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <script src=@Url.Content("/global_assets/js/plugins/visualization/d3/d3.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/visualization/d3/d3_tooltip.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/styling/switchery.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/ui/moment/moment.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/pickers/daterangepicker.js")></script>
+    <script src=@Url.Content("/assets/js/app.js")></script>
+    <script src=@Url.Content("/global_assets/js/demo_pages/dashboard.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/extensions/jquery_ui/touch.min.js")></script>
+    <script src=@Url.Content("/assets/js/app.js")></script>
+    <script src=@Url.Content("/global_assets/js/demo_pages/components_collapsible.js")></script>
+
+    <script src=@Url.Content("/assets/js/app.js")></script>
+    <script src=@Url.Content("/global_assets/js/demo_pages/extra_jgrowl_noty.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/visualization/d3/d3.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/visualization/d3/d3_tooltip.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/styling/switchery.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/ui/moment/moment.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/pickers/daterangepicker.js")></script>
+    <script src=@Url.Content("/assets/js/app.js")></script>
+    <script src=@Url.Content("/global_assets/js/demo_pages/dashboard.js")></script>
+    <!-- /theme JS files -->
+
+    <script src=@Url.Content("global_assets/js/plugins/loaders/progressbar.min.js")></script>
+
+    <script src="assets/js/app.js"></script>
+    <script src=@Url.Content("global_assets/js/demo_pages/components_progress.js")></script>
+
+</head>
+<body>
+    <br />
+    <h2 style="margin-left:5%">     Details</h2>
+    <div class="card">
+        <div class="card-header bg-warning-300">
+            <h6 class="card-title">
+                <a data-toggle="collapse" class="text-white" href="#collapsible-styled-group1">Project's Name</a>
+            </h6>
+        </div>
+        <div id="collapsible-styled-group1" class="collapse show">
+            <div class="card-body">
+                <div>
+
+                    <div class="card">
+                        <div class="card-header header-elements-inline">
+                            <p style="margin-top:1%"> <b style="color:	#1683aa">Project Name : </b>@Html.DisplayFor(model => model.Name) </p>
+
+
+
+                            <div class="header-elements">
+                                <div class="list-icons list-icons-extended">
+                                    <a href="https://drive.google.com/drive/u/0/my-drive" class="list-icons-item" data-popup="tooltip" data-container="body" title="Google Drive"><i class="icon-google-drive"></i></a>
+                                    <a href="#" class="list-icons-item" data-popup="tooltip" data-container="body" title="Twitter"><i class="icon-twitter"></i></a>
+                                    <a href="https://github.com/" class="list-icons-item" data-popup="tooltip" data-container="body" title="Github"><i class="icon-github"></i></a>
+                                    <a href="#" class="list-icons-item" data-popup="tooltip" data-container="body" title="Linked In"><i class="icon-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div>
+                        <div class="card">
+                            <div class="card-header bg-info">
+                                <h6 class="card-title">
+                                    <a data-toggle="collapse" class="text-white" href="#collapsible-styled-group1">Project's General informations</a>
+                                </h6>
+                            </div>
+                            <div id="collapsible-styled-group1" class="collapse show">
+                                <div class="card-body">
+
+
+                                    <br />
+                                    <p style="margin-top:1%"> <b style="color:	#1683aa">Project Description : </b>@Html.DisplayFor(model => model.Description) </p>
+                                    <p style="margin-top:1%"> <b style="color:	#1683aa">Project Category : </b>@Html.DisplayFor(model => model.Category) </p>
+                                    <p style="margin-top:1%"> <b style="color:	#1683aa">Project Team : </b>@Html.DisplayFor(model => model.TeamId) </p>
+                                    <p style="margin-top:1%"> <b style="color:	#1683aa">Project Tasks : </b>@Html.DisplayFor(model => model.tasks) </p>
+                                    <p style="margin-top:1%"> <b style="color:	#1683aa">Progress : </b>@Html.DisplayFor(model => model.Progress) </p>
+
+                                    <div class="card card-body border-top-1 border-top-primary text-center">
+                                        <h6 class="mb-0 font-weight-semibold">Bottom custom text</h6>
+                                        <p class="mb-3 text-muted">Bottom bars with custom text</p>
+
+                                        <div class="mb-3" id="v-fill-nonpercentage-bottom" style="height: 200px">
+                                            <div class="progress vertical bottom">
+                                                <div class="progress-bar bg-primary" data-transitiongoal-backup="30" data-transitiongoal="30">
+                                                    <span class="sr-only">0%</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="progress vertical bottom">
+                                                <div class="progress-bar bg-danger" data-transitiongoal-backup="60" data-transitiongoal="60">
+                                                    <span class="sr-only">0%</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="progress vertical bottom">
+                                                <div class="progress-bar bg-info" data-transitiongoal-backup="90" data-transitiongoal="90">
+                                                    <span class="sr-only">0%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button type="button" class="btn btn-primary" id="v-fill-nonpercentage-bottom-start">Start</button>
+                                            <button type="button" class="btn btn-danger ml-2" id="v-fill-nonpercentage-bottom-reset">Reset</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+
+
+
+
+
+
+                        </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header bg-purple">
+                                <h6 class="card-title">
+                                    <a class="collapsed text-white" data-toggle="collapse" href="#collapsible-styled-group3">Operational Options</a>
+                                </h6>
+                            </div>
+                            <div id="collapsible-styled-group3" class="collapse show">
+                                <div class="card-body">
+                                 
+                                    @Html.ActionLink("Edit", "Edit", new { id = Model.ProjectId })|
+                                    @Html.ActionLink("Delete", "Delete", new { id = Model.ProjectId })|
+                                    @Html.ActionLink("Back to List", "Index") |
+                                    @Html.ActionLink("Create One", "Create")
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div></div></div></div><br />
+                <div class="navbar navbar-expand-lg navbar-light">
+                    <div class="text-center d-lg-none w-100">
+                        <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+                            <i class="icon-unfold mr-2"></i>
+                            Footer
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbar-footer">
+                        <span class="navbar-text">
+                            &copy; 2018 - 2019.
+                        </span>
+
+                    </div>
+                </div>
+
+</body>
+</html>

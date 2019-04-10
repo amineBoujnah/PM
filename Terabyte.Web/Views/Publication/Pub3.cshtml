@@ -1,0 +1,73 @@
+﻿@model Terabyte.Web.Models.PublicationVM
+@{string path = "~/Content/Uploads/" + @Model.image;}
+@{
+    ViewBag.Title = "Pub3";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+    
+        
+           
+                        
+                    <div class="theme-padding-bottom " style="border-radius: 20px">
+    <div class="row"style="background-color:#ffffff ; border-radius: 20px" >
+
+        <!-- Post Img -->
+        <div class="col-lg-5 col-md-5 col-xs-12">
+            
+                
+                    <img src="@Url.Content(path)" width="400px" height="300" alt="">
+              
+        </div>
+        <!-- Post Img -->
+        <!-- Post Detail -->
+        <div class="col-lg-7 col-md-5 col-xs-12">
+            <div class="large-post-detail style-2">
+                <div class="author-header">
+                    <div class="aurhor-img-name pull-left">
+                        <img src="images/aurthor-img.jpg" alt="">
+                        <strong>by <i class="red-color">Foudhaili feres</i></strong>
+                        <span>on @Model.creationDate </span>
+                    </div>
+                    <div class="share-option pull-right" style="border:none">
+                        <span id="share-btn3" style="border-radius: 30px"><i class="fa fa-share-alt"></i>Share</span>
+                        <div id="show-social-icon3" class="on-hover-share">
+                            <ul class="social-icons">
+                                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <h2><a href="#">@Model.title</a></h2>
+                <p>@Model.description</p>
+                <button class="btn gary-btn" style="border-radius:10px ">@Html.ActionLink("See More", "Details", new { id = Model.PublicationId })</button>
+
+            </div>
+
+            <div class="share-option pull-right">
+                <table >
+                <tr >
+                    <th style="text-align:center"><span style="display: inline;">@Html.ActionLink("Delete", "Delete", new { id = Model.PublicationId })<i class="fa fa-trash-o fa-lg"></i></span></th>
+                    <th><p>---</p></th>
+                    <th style="text-align:center"><span style="display: inline;">@Html.ActionLink("Edit", "Edit")<i class="fa fa-pencil fa fa-lg"></i></span></th>
+                </tr>
+                </table>
+                
+                
+            </div>
+        </div>
+
+        
+
+        
+
+        <!-- Post Detail -->
+
+    </div>
+                        
+</div>
+
+  

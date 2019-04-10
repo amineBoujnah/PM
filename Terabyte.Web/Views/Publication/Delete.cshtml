@@ -1,0 +1,20 @@
+﻿@model Terabyte.Web.Models.PublicationVM
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        <h2 style="text-align:center">Click <u>Delete</u> to proceed delete operation or <u>Back to List</u> to cancel. </h2>
+        <div class="form-actions no-color" style="text-align:center">
+            
+            <button value="Delete" type="submit">Delete</button>
+            <button>@Html.ActionLink("Back to List", "Index")</button>
+        </div>
+    }
+</div>

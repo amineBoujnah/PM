@@ -1,0 +1,108 @@
+﻿
+@model Terabyte.Web.Models.ProjectVM
+@{string path = "~/Content/Upload/" + @Model.Image;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/global_assets/css/icons/icomoon/styles.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/bootstrap.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/bootstrap_limitless.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/layout.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/components.min.css") rel="stylesheet" type="text/css">
+    <link href=@Url.Content("/assets/css/colors.min.css") rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <script src=@Url.Content("/global_assets/js/main/jquery.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/main/bootstrap.bundle.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/loaders/blockui.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/ui/ripple.min.js")></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <script src=@Url.Content("/global_assets/js/plugins/visualization/d3/d3.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/visualization/d3/d3_tooltip.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/styling/switchery.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/ui/moment/moment.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/pickers/daterangepicker.js")></script>
+    <script src=@Url.Content("/assets/js/app.js")></script>
+    <script src=@Url.Content("/global_assets/js/demo_pages/dashboard.js")></script>
+    <!-- Theme JS files -->
+    <script src=@Url.Content("/global_assets/js/plugins/media/fancybox.min.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/forms/styling/uniform.min.js")></script>
+
+    <script src=@Url.Content("/assets/js/app.js")></script>
+    <script src=@Url.Content("/global_assets/js/demo_pages/ecommerce_product_list.js")></script>
+    <script src=@Url.Content("/global_assets/js/plugins/loaders/progressbar.min.js")></script>
+
+ 
+    <script src=@Url.Content("/global_assets/js/demo_pages/components_progress.js")></script>
+    <!-- /theme JS files -->
+</head>
+<body>
+
+    <div class="content">
+
+        <!-- Inner container -->
+        <div class="d-flex align-items-start flex-column flex-md-row">
+
+            <!-- Left content -->
+            <div class="w-100 overflow-auto order-2 order-md-1">
+
+                <!-- List -->
+                <div class="card card-body">
+                    <div class="media align-items-center align-items-lg-start text-center text-lg-left flex-column flex-lg-row">
+                        <div class="mr-lg-3 mb-3 mb-lg-0">
+                            <a href="@Url.Content(path)" data-popup="lightbox">
+                                <img class="card-img img-fluid" alt="Project" src="@Url.Content(path)" width="70" height="70" />
+                            </a>
+                        </div>
+
+                        <div class="media-body">
+                            <h6 class="media-title font-weight-semibold">
+                                <a href="#">@Model.Name</a>
+                            </h6>
+
+                            <ul class="list-inline list-inline-dotted mb-3 mb-lg-2">
+                                <li class="list-inline-item"><a href="#" class="text-muted">Category</a></li>
+                                <li class="list-inline-item"><a href="#" class="text-muted">@Model.Category</a></li>
+                            </ul>
+                            <ul class="list-inline list-inline-dotted mb-3 mb-lg-2">
+                                <li class="list-inline-item"><a href="#" class="text-muted">Team</a></li>
+                                <li class="list-inline-item"><a href="#" class="text-muted">@Model.TeamId</a></li>
+                            </ul>
+
+                            <p class="mb-3">@Model.Description</p>
+                            <div style="margin-left:83%; margin-top:-15%">
+                                <div style="background-color:deepskyblue" class="pace-demo ml-2">
+                                    <div style="background-color:deepskyblue" class="theme_squares theme_squares_with_text">
+                                        <div style="background-color:deepskyblue" class="pace-progress" data-progress-text="100%" data-progress="100"></div>
+                                        <div style="background-color:deepskyblue; margin-left:50%" class="pace_activity"></div>
+                                        <span style="margin-left:40%"><b>70%</b></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <br /><br />
+                            <ul class="list-inline list-inline-dotted mb-0">
+                                <li class="list-inline-item">@Html.ActionLink("Delete", "Delete", new { id = Model.ProjectId })</li>
+                                <li class="list-inline-item">@Html.ActionLink("Edit", "Edit", new { id = Model.ProjectId })</li>
+                                <li class="list-inline-item">@Html.ActionLink("Detail", "Details", new { id = Model.ProjectId })</li>
+                        </div><button style=" background-color:deepskyblue; margin-top:14%; margin-left:-10%" class="btn btn-labeled btn-labeled-left btn-sm"><b><i class="icon-add-to-list"></i></b><a style="color:white" href="@Url.Action("Create", "Task",new { ProjectId = Model.ProjectId })">Add Task</a></button>
+
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

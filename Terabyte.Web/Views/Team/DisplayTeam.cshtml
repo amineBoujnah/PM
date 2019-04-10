@@ -1,0 +1,12 @@
+﻿
+@model Terabyte.Web.Models.TeamsVM
+@{ string path = "~/Content/Upload/" + @Model.image;}
+
+
+
+<div style="float:left; margin:5px;">
+    <p>name: @Model.name</p>
+    <img alt="Project" src="@Url.Content(path)" width="70" height="70" />
+    @Html.ActionLink("Delete", "Delete", new { id = Model.TeamId })
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TeamId })
+</div>
