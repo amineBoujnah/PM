@@ -29,11 +29,5 @@ namespace Terabyte.Web.Models
         {
             return new ApplicationDbContext();
         }
-
-        public System.Data.Entity.DbSet<Terabyte.Domain.Entities.Project> Projects { get; set; }
-
-        public System.Data.Entity.DbSet<Terabyte.Domain.Entities.Account> Accounts { get; set; }
-
-        public System.Data.Entity.DbSet<Terabyte.Domain.Entities.Team> Teams { get; set; }
     }
 }

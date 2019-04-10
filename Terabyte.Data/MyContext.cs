@@ -10,7 +10,7 @@ namespace Terabyte.Data
     public class MyContext : DbContext
     {
 
-        public MyContext() : base("Name=PM")
+        public MyContext() : base("name=Terabyte")
         {
 
         }
@@ -18,13 +18,15 @@ namespace Terabyte.Data
         public DbSet<Logs> Logs { get; set; }
         public DbSet<Pack> Packs { get; set; }
         public DbSet<Project> Projects { get; set; }
-        public DbSet<Tache> Tasks { get; set; }
+        public DbSet<Task> Tasks { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<Publication> Publications { get; set; }
         public DbSet<Event> Events { get; set; }
         public DbSet<Specialty> Specialties { get; set; }
+        public DbSet<Complaint> complaints { get; set; }
+        public DbSet<AdminNotif> Anotifs { get; set; }
         //public DbSet<User> Users { get; set; }
-        
+
 
 
 

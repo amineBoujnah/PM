@@ -60,7 +60,8 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\Admin.cs" />
-    <Compile Include="Entities\Comment.cs" />
+    <Compile Include="Entities\AdminNotif.cs" />
+    <Compile Include="Entities\Complaint.cs" />
     <Compile Include="Entities\CustomInterface.cs" />
     <Compile Include="Entities\Director.cs" />
     <Compile Include="Entities\Event.cs" />
@@ -69,7 +70,7 @@
     <Compile Include="Entities\Project.cs" />
     <Compile Include="Entities\Publication.cs" />
     <Compile Include="Entities\Specialty.cs" />
-    <Compile Include="Entities\Tache.cs" />
+    <Compile Include="Entities\Task.cs" />
     <Compile Include="Entities\Team.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -12,7 +12,7 @@ namespace Terabyte.Data.Configurations
     {
         public EventConfiguration()
         {
-            //HasOptional(p => p.user).WithMany(p => p.events).HasForeignKey(p => p.UserId);
+            HasRequired(p => p.user).WithMany(p => p.events).HasForeignKey(p => p.UserId);
         }
     }
 }

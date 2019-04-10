@@ -13,7 +13,6 @@ namespace Terabyte.Data.Configurations
         public ProjectConfiguration()
         {
             HasMany(p => p.tasks).WithOptional(p => p.project).HasForeignKey(p => p.ProjectId);
-            HasOptional(e => e.team).WithMany(a => a.projects).HasForeignKey(z => z.TeamId);
         }
     
     }

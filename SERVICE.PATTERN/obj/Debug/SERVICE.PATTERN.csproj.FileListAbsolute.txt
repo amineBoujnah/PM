@@ -26,61 +26,75 @@ C:\Users\root\documents\visual studio 2015\Projects\MvcMovies\SERVICE.PATTERN\bi
 C:\Users\root\documents\visual studio 2015\Projects\MvcMovies\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csprojResolveAssemblyReference.cache
 C:\Users\root\documents\visual studio 2015\Projects\MvcMovies\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.dll
 C:\Users\root\documents\visual studio 2015\Projects\MvcMovies\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.pdb
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csprojResolveAssemblyReference.cache
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll.config
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.pdb
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.pdb
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.pdb
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.xml
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.pdb
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll.config
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.pdb
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.dll
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.dll
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.dll
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.pdb
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.pdb
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.xml
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\obj\Debug\Terabyte.Data.Migrations.pm.resources
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csproj.GenerateResource.Cache
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.dll
-C:\Users\User\Desktop\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.pdb
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll.config
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.pdb
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.dll
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.dll
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.pdb
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.pdb
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.xml
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csprojResolveAssemblyReference.cache
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\obj\Debug\Terabyte.Data.Migrations.pm.resources
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csproj.GenerateResource.Cache
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.dll
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.pdb
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.dll
-C:\Users\amine\Documents\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll.config
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.pdb
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.pdb
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.pdb
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.xml
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csprojResolveAssemblyReference.cache
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.pdb
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll.config
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.pdb
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.pdb
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.pdb
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.xml
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csprojResolveAssemblyReference.cache
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.pdb
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll.config
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.pdb
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.dll
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.dll
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.dll
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.dll
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.pdb
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.pdb
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.xml
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.xml
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csprojResolveAssemblyReference.cache
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.dll
+E:\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.pdb
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll.config
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.dll
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\SERVICE.PATTERN.pdb
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.dll
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.dll
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.dll
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Data.pdb
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Terabyte.Domain.pdb
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.xml
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.csprojResolveAssemblyReference.cache
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.dll
+C:\Users\AMINE\Desktop\Final04042019\Terabyte (2)\Terabyte\SERVICE.PATTERN\obj\Debug\SERVICE.PATTERN.pdb

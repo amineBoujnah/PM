@@ -20,10 +20,13 @@ namespace Terabyte.Data.Infrastructure
             this.factory = factory;
             dbset = DataContext.Set<T>();
         }
-        protected MyContext DataContext { get
+        protected MyContext DataContext
+        {
+            get
             {
                 return datacontext = factory.DataContext;
-            } }
+            }
+        }
         public void Add(T entity)
         {
             dbset.Add(entity);
@@ -31,7 +34,7 @@ namespace Terabyte.Data.Infrastructure
 
         public void Delete(Expression<Func<T, bool>> condition)
         {
-            foreach(T Obj in dbset.Where(condition).AsEnumerable())
+            foreach (T Obj in dbset.Where(condition).AsEnumerable())
                 dbset.Remove(Obj);
         }
 
@@ -58,12 +61,12 @@ namespace Terabyte.Data.Infrastructure
         public IEnumerable<T> GetMany(Expression<Func<T, bool>> condition, System.Linq.Expressions.Expression<Func<T, bool>> orderby)
         {
             IQueryable<T> query = dbset;
-            if (condition != null) 
+            if (condition != null)
                 query = query.Where(condition);
             if (orderby != null)
                 query = query.OrderBy(orderby);
 
-            return query.AsEnumerable();   
+            return query.AsEnumerable();
         }
 
         public void Update(T entity)
@@ -71,7 +74,6 @@ namespace Terabyte.Data.Infrastructure
             dbset.Attach(entity);
             DataContext.Entry(entity).State = EntityState.Modified;
         }
-
         public IEnumerable<T> GetAll()
         {
             return dbset.ToList();
