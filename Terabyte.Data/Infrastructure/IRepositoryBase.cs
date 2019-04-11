@@ -18,7 +18,6 @@ namespace Terabyte.Data.Infrastructure
         void Delete(Expression<Func<T, bool>> condition);
         IEnumerable<T> GetMany(Expression<Func<T, bool>> condition
             , Expression<Func<T, bool>> orderby);
-
         IEnumerable<T> GetAll();
 
     }

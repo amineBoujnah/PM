@@ -46,6 +46,10 @@
       <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -60,16 +64,19 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\Admin.cs" />
-    <Compile Include="Entities\Comment.cs" />
+    <Compile Include="Entities\Answer.cs" />
     <Compile Include="Entities\CustomInterface.cs" />
     <Compile Include="Entities\Director.cs" />
     <Compile Include="Entities\Event.cs" />
     <Compile Include="Entities\Logs.cs" />
     <Compile Include="Entities\Pack.cs" />
+    <Compile Include="Entities\Payement.cs" />
     <Compile Include="Entities\Project.cs" />
     <Compile Include="Entities\Publication.cs" />
+    <Compile Include="Entities\Question.cs" />
+    <Compile Include="Entities\Quiz.cs" />
     <Compile Include="Entities\Specialty.cs" />
-    <Compile Include="Entities\Tache.cs" />
+    <Compile Include="Entities\Task.cs" />
     <Compile Include="Entities\Team.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

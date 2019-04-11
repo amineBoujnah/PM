@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,8 @@ namespace Terabyte.Domain.Entities
 {
     public class Director : Account
     {
+        [Key]
+        public int idDirector { get; set; }
         public string firstname { get; set; }
         public string lastname { get; set; }
 
@@ -26,5 +29,9 @@ namespace Terabyte.Domain.Entities
         [ForeignKey("InterfaceId ")]
 
         public virtual CustomInterface userInterface { get; set; }
+
+        public int NbPoint { get; set; }
+        public int Score { get; set; }
+
     }
 }

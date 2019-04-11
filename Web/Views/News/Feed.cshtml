@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Feed";
+    Layout = "~/Views/Shared/_FrontOffice.cshtml";
+}
+
+<style>
+    .blog-section .inner {
+        background: #103b7a;
+        color: #fff;
+        padding: 30px;
+        margin-bottom: 30px;
+        border: 2px;
+        border-color: yellow;
+        border-radius: 15px;
+    }
+</style>
+
+
+
+<div class="blog-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="centered-title">
+                <h3>Actualités OTDAV</h3>
+            </div><!-- blogs-title -->
+
+            @{
+                int x = 0;
+            }
+
+            @foreach (var item in ViewBag.NEWS)
+            {
+                <div class="col-md-4">
+
+                    <div class="inner">
+                        <div class="entry-header">
+
+                            <h2 class="post-title entry-title">
+                                <a href="#">@ViewBag.TITLES[x]</a>
+                            </h2>
+                        </div><!-- end entry-header -->
+                        <div class="entry-content">
+
+
+                            <p>@item.ToString()</p>
+                            <img src=@ViewBag.IMAGES[x] />
+                            @{x++;}
+
+
+                        </div><!-- entry-content -->
+                    </div><!-- end inner -->
+
+
+
+
+                </div><!-- end col -->
+                                }
+
+
+
+
+        </div><!-- end row -->
+    </div>
+</div>
+
+

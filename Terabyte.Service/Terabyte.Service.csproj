@@ -38,6 +38,10 @@
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -49,23 +53,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommentService.cs" />
-    <Compile Include="EventService.cs" />
-    <Compile Include="ICommentService.cs" />
-    <Compile Include="IEventService.cs" />
-    <Compile Include="IProjectService.cs" />
-    <Compile Include="IPublicationService.cs" />
+    <Compile Include="AnswerService.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="CustomInterfaceService.cs" />
+    <Compile Include="DirectorService.cs" />
+    <Compile Include="IAnswerService.cs" />
+    <Compile Include="ICustomInterfaceService.cs" />
+    <Compile Include="IDirector.cs" />
+    <Compile Include="IPackService.cs" />
+    <Compile Include="IQuestionService.cs" />
+    <Compile Include="IQuizService.cs" />
     <Compile Include="ITaskService.cs" />
-    <Compile Include="ITeamService.cs" />
-    <Compile Include="ProjectService.cs" />
+    <Compile Include="PackService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PublicationService.cs" />
+    <Compile Include="QuestionService.cs" />
+    <Compile Include="QuizService.cs" />
     <Compile Include="TaskService.cs" />
-    <Compile Include="TeamService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Scripts\jquery-3.1.0.min.map" />
+    <None Include="Scripts\jquery-3.1.0.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SERVICE.PATTERN\SERVICE.PATTERN.csproj">
@@ -80,6 +89,25 @@
       <Project>{5ffdcbc1-e8d4-40e5-b60a-d96f6083981c}</Project>
       <Name>Terabyte.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\cldr.js" />
+    <Content Include="Scripts\cldr\event.js" />
+    <Content Include="Scripts\cldr\supplemental.js" />
+    <Content Include="Scripts\cldr\unresolved.js" />
+    <Content Include="Scripts\globalize.js" />
+    <Content Include="Scripts\globalize\currency.js" />
+    <Content Include="Scripts\globalize\date.js" />
+    <Content Include="Scripts\globalize\message.js" />
+    <Content Include="Scripts\globalize\number.js" />
+    <Content Include="Scripts\globalize\plural.js" />
+    <Content Include="Scripts\globalize\relative-time.js" />
+    <Content Include="Scripts\globalize\unit.js" />
+    <Content Include="Scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.0.js" />
+    <Content Include="Scripts\jquery-3.1.0.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

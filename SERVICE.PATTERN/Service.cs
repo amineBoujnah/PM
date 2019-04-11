@@ -10,7 +10,7 @@ using Terabyte.Data.Infrastructure;
 
 namespace SERVICE.PATTERN
 {
-    public class Service<T> where T : class
+   public class Service<T> where T : class
     {
         private IUnitOfWork utk;
         public Service(IUnitOfWork utk)
@@ -61,7 +61,6 @@ namespace SERVICE.PATTERN
             return utk.GetRepositoryBase<T>().GetMany(condition, orderBy);
 
         }
-
 
         public virtual void Update(T entity)
         {

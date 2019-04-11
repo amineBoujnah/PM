@@ -13,11 +13,17 @@ namespace Terabyte.Data.Configurations
         public TeamConfiguration()
         {
 
-            HasMany(p => p.Users).WithOptional(c => c.team)
-                     .HasForeignKey(p => p.TeamId).WillCascadeOnDelete(true);
+            HasMany(p => p.Users).WithRequired(c => c.team)
+                     .HasForeignKey(p => p.TeamId).WillCascadeOnDelete(false);
 
 
-           
+            HasMany(p => p.projects).WithMany(c => c.teams)
+                    .Map(m =>
+                    {
+                        m.ToTable("Jobs");
+                        m.MapLeftKey("Project");
+                        m.MapRightKey("Team");
+                    });
         }
     }
 }

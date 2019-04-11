@@ -12,7 +12,7 @@ namespace Terabyte.Data.Configurations
     {
         public DirectorConfiguration()
         {
-            HasRequired(p => p.pack).WithMany(s => s.Directors).HasForeignKey(q => q.PackId);
+            //HasRequired(p => p.pack).WithMany(s => s.Directors).HasForeignKey(q => q.PackId);
             
         }
     }

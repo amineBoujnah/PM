@@ -71,7 +71,6 @@ namespace Terabyte.Data.Infrastructure
             dbset.Attach(entity);
             DataContext.Entry(entity).State = EntityState.Modified;
         }
-
         public IEnumerable<T> GetAll()
         {
             return dbset.ToList();

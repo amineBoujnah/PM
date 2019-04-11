@@ -10,7 +10,7 @@ namespace Terabyte.Data
     public class MyContext : DbContext
     {
 
-        public MyContext() : base("Name=PM")
+        public MyContext() : base("name=Terabyte")
         {
 
         }
@@ -18,13 +18,17 @@ namespace Terabyte.Data
         public DbSet<Logs> Logs { get; set; }
         public DbSet<Pack> Packs { get; set; }
         public DbSet<Project> Projects { get; set; }
-        public DbSet<Tache> Tasks { get; set; }
+        public DbSet<Task> Tasks { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<Publication> Publications { get; set; }
         public DbSet<Event> Events { get; set; }
         public DbSet<Specialty> Specialties { get; set; }
-        //public DbSet<User> Users { get; set; }
+        public virtual DbSet<Answer> Answers { get; set; }
         
+        public virtual DbSet<Question> Questions { get; set; }
+        public virtual DbSet<Quiz> Quizs { get; set; }
+        //public DbSet<User> Users { get; set; }
+
 
 
 
@@ -41,7 +45,9 @@ namespace Terabyte.Data
             modelBuilder.Configurations.Add(new PublicationConfiguration());
             modelBuilder.Configurations.Add(new EventConfiguration());
             modelBuilder.Configurations.Add(new DirectorConfiguration());
-            modelBuilder.Configurations.Add(new ProjectConfiguration());
+            modelBuilder.Configurations.Add(new ProjectConfiguration()); 
+            modelBuilder.Configurations.Add(new QuestionConfiguration());
+
         }
     }
 }

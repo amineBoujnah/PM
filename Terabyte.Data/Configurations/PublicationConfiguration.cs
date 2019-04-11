@@ -12,8 +12,7 @@ namespace Terabyte.Data.Configurations
     {
         public PublicationConfiguration()
         {
-            //HasOptional(p => p.Owner).WithMany(q => q.publications).HasForeignKey(p => p.OwnerId);
-            HasMany(p => p.comments).WithOptional(q => q.publication).HasForeignKey(p => p.PublicationId);
+            HasRequired(p => p.Owner).WithMany(q => q.publications).HasForeignKey(p => p.OwnerId);
 
         }
     }

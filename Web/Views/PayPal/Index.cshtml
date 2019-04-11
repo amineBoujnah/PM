@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_FrontOffice.cshtml";
+}
+
+@using System.Configuration
+
+<div class="about-section">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+
+            <div class="white-box">
+
+                <div class="about-title">
+                    <h3>Cheque</h3>
+                </div><!-- end about-title -->
+
+                <div class="about-content">
+                    <h3><strong>Le chèque bancaire est un moyen de paiement largement utilisé par les titulaires de comptes courants. </strong></h3>
+                    <img src="https://www.mes-cours-de-piano.com/wp-content/uploads/2018/04/Ch%C3%A8que.png" width="200" height="200" />
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+
+            <div class="white-box">
+
+                <div class="about-title">
+                    <h3>PayPal</h3>
+                </div><!-- end about-title -->
+
+                <div class="about-content">
+                    <h3><strong>PayPal est un service de paiement en ligne qui permet de payer des achats, de recevoir des paiements, ou d’envoyer et de recevoir de l’argent.</strong></h3>
+                    
+                    <img src="http://localhost:18080/OTDAV-web/resources/img/paypal.png" width="300" height="120" />
+
+
+                    <form method="post" action="@ConfigurationManager.AppSettings["PayPalSubmitUrl"]">
+                        <input type="hidden" name="upload" value="1" />
+                       
+                        <input type="hidden" name="return" value="@ConfigurationManager.AppSettings["returnurl"]" />
+                      
+                        <input type="hidden" name="cmd" value="_cart" />
+
+                       
+                        <input type="hidden" name="business" value="@ConfigurationManager.AppSettings["PayPalUsername"]" />
+                       
+
+                        <input type="hidden" name="item_name_1" value="Frais adhesion OTDAV" />
+                       
+                        <input type="hidden" name="item_number_1" value="p1" />
+                       
+                        <input type="hidden" name="amount_1" value="10" />
+                        
+                        <input type="hidden" name="quantity_1" value="1" />
+                      
+                        <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif">
+
+                    </form>
+                    </div>
+                </div>
+            </div>
+        <div class="col-md-4">
+            <div class="white-box">
+
+                <div class="about-title">
+                    <h3>Virement bancaire</h3>
+                </div><!-- end about-title -->
+
+                <div class="about-content">
+                    <h3><strong> Un virement bancaire est un transfert d'argent pouvant s'effectuer entre deux comptes ouverts dans le même établissement bancaire </strong></h3>
+                    
+                    <img src="https://www.sobflous.tn/images/logo-virement-bancaire.png" width="350" height="160" />
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+</div>

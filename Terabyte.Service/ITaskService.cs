@@ -7,8 +7,8 @@ using Terabyte.Domain.Entities;
 
 namespace Terabyte.Service
 {
-   public interface ITaskService:IService<Tache>
+   public interface ITaskService:IService<Task>
     {
-        IEnumerable<Tache> SearchTasksByName(string searchString);
+        IEnumerable<Task> SearchTasksByName(string searchString);
     }
 }

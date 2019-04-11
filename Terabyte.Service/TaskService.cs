@@ -8,7 +8,7 @@ using Terabyte.Domain.Entities;
 
 namespace Terabyte.Service
 {
-    public class TaskService:Service<Tache>,ITaskService
+    public class TaskService:Service<Task>,ITaskService
 
     {
         static IDatabaseFactory Factory = new DatabaseFactory();
@@ -16,26 +16,10 @@ namespace Terabyte.Service
         public TaskService() : base(utk)
         {
         }
-        public void Commit()
-        {
-            utk.Commit();
-        }
-
-        //public void CreateTache(Tache t)
-        //{
-        //    utk.getRepository<Pack>().Add(p);
-        //}
-
-        public void Dispose()
-        {
-            utk.Dispose();
-        }
-
         //Recherche
-        //State
-        public IEnumerable<Tache> SearchTasksByName(string searchString/*, string searchInt*/)
+        public IEnumerable<Task> SearchTasksByName(string searchString/*, string searchInt*/)
         {
-            IEnumerable<Tache> TaskDomain = GetMany();
+            IEnumerable<Task> TaskDomain = GetMany();
             if (!String.IsNullOrEmpty(searchString))
             {
                 TaskDomain = GetMany(x => x.name.Contains(searchString));
@@ -47,18 +31,8 @@ namespace Terabyte.Service
             return TaskDomain;
         }
 
-        public List<Tache> geTache()
-        {
-            IEnumerable<Tache> t = (from taches in utk.GetRepositoryBase<Tache>().GetAll()
-                                   select taches);
-            List<Tache> list = t.ToList<Tache>();
-            return list;
-        }
-
-
-
     }
 
-
+       
 }
 

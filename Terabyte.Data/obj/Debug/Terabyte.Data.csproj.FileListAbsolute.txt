@@ -1,56 +1,108 @@
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csprojResolveAssemblyReference.cache
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll.config
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.pdb
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.pdb
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.xml
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.dll
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.pdb
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.migtaw.resources
-C:\Users\root\documents\visual studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csproj.GenerateResource.Cache
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll.config
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.pdb
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.dll
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.dll
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.pdb
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.xml
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.dll
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.pdb
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.mig1.resources
-C:\Users\User\Desktop\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csproj.GenerateResource.Cache
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll.config
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.pdb
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.dll
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.pdb
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.xml
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csprojResolveAssemblyReference.cache
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.mig1.resources
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.pop.resources
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csproj.GenerateResource.Cache
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.dll
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.pdb
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.rt.resources
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.dll
-C:\Users\amine\Documents\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll.config
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.pdb
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.pdb
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.xml
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csprojResolveAssemblyReference.cache
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.dll
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.pdb
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.mig1.resources
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csproj.GenerateResource.Cache
+C:\Users\root\Documents\Visual Studio 2015\Projects\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.mig2.resources
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll.config
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.pdb
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.pdb
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.xml
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csprojResolveAssemblyReference.cache
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.mig1.resources
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.mig2.resources
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csproj.GenerateResource.Cache
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.dll
+C:\Users\AMINE\Desktop\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.pdb
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll.config
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.pdb
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.dll
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.dll
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.pdb
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.xml
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csprojResolveAssemblyReference.cache
+D:\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.mig1.resources
+D:\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.mig2.resources
+D:\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csproj.GenerateResource.Cache
+D:\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.dll
+D:\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.pdb
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll.config
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.pdb
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Stripe.net.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.pdb
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.xml
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Stripe.net.pdb
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Stripe.net.xml
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.m1.resources
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.dll
+C:\Users\Administrateur\Desktop\te\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll.config
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Data.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Stripe.net.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Terabyte.Domain.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Stripe.net.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Stripe.net.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.manel.resources
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.dll
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2015\Projects\Ent\Terabyte (2)\Terabyte\Terabyte.Data\obj\Debug\Terabyte.Data.Migrations.manel2.resources
