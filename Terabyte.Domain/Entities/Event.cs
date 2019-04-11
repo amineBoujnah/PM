@@ -11,16 +11,13 @@ namespace Terabyte.Domain.Entities
    public class Event
     {
         [Key]
-        public int EventID { get; set; }
-        public string Subject { get; set; }
-        public string Description { get; set; }
-        public DateTime Start { get; set; }
-        public DateTime? End { get; set; }
-        public string ThemeColor { get; set; }
-        public bool IsFullDay { get; set; }
-        /*public int? UserId { get; set; }
+        public int EventId { get; set; }
+        public string title { get; set; }
+        public string description { get; set; }
+        public string image { get; set; }
+        public int UserId { get; set; }
         [Required]
         [ForeignKey("UserId ")]
-        public virtual User user { get; set; }*/
+        public virtual User user { get; set; }
     }
 }

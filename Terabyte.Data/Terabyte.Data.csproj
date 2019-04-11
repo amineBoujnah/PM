@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Configurations\DirectorConfiguration.cs" />
     <Compile Include="Configurations\EventConfiguration.cs" />
     <Compile Include="Configurations\ProjectConfiguration.cs" />
@@ -63,17 +64,9 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201904080107515_mig1.cs" />
-    <Compile Include="Migrations\201904080107515_mig1.Designer.cs">
-      <DependentUpon>201904080107515_mig1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904100007398_pop.cs" />
-    <Compile Include="Migrations\201904100007398_pop.Designer.cs">
-      <DependentUpon>201904100007398_pop.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904102038489_rt.cs" />
-    <Compile Include="Migrations\201904102038489_rt.Designer.cs">
-      <DependentUpon>201904102038489_rt.cs</DependentUpon>
+    <Compile Include="Migrations\201904052049422_migra.cs" />
+    <Compile Include="Migrations\201904052049422_migra.Designer.cs">
+      <DependentUpon>201904052049422_migra.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyContext.cs" />
@@ -90,21 +83,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\jquery-1.8.0-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.8.0.js" />
-    <Content Include="Scripts\jquery-1.8.0.min.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201904080107515_mig1.resx">
-      <DependentUpon>201904080107515_mig1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904100007398_pop.resx">
-      <DependentUpon>201904100007398_pop.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904102038489_rt.resx">
-      <DependentUpon>201904102038489_rt.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904052049422_migra.resx">
+      <DependentUpon>201904052049422_migra.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

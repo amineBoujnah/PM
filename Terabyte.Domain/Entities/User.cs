@@ -32,7 +32,7 @@ namespace Terabyte.Domain.Entities
          public int? TeamId { get; set; }
          [ForeignKey("TeamId ")]
          public virtual Team team { get; set; }
-         public virtual ICollection<Tache> tasks { get; set; }
+         public virtual ICollection<Task> tasks { get; set; }
 
          public int? specialityId { get; set; }
          [Required]

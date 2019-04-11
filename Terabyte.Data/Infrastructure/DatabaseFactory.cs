@@ -25,8 +25,8 @@ namespace Terabyte.Data.Infrastructure
         }
         protected override void DisposeCore()
         {
-            if(DataContext!=null)
-            DataContext.Dispose();
+            if (DataContext != null)
+                DataContext.Dispose();
         }
     }
 }

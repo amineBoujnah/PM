@@ -12,14 +12,14 @@ namespace Terabyte.Data.Infrastructure
         void Add(T entity);
         void Delete(T entity);
         void Update(T entity);
-        T Get(Expression<Func<T,bool>> condition);
+        T Get(Expression<Func<T, bool>> condition);
         T GetById(int id);
         T GetById(string id);
         void Delete(Expression<Func<T, bool>> condition);
         IEnumerable<T> GetMany(Expression<Func<T, bool>> condition
             , Expression<Func<T, bool>> orderby);
-
         IEnumerable<T> GetAll();
+
 
     }
 }

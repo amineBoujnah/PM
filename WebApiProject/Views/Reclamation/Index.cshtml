@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    
+</head>
+<body>
+
+ 
+    <table cellpadding="2" cellspacing="2" border="1">
+
+        <tr>
+
+            <th>Id</th>
+            <th>status</th>
+            <th>type</th>
+            <th>comment</th>
+            <th>Date</th>
+            <th>Client ID</th>
+            <th>Resource Name</th>
+        </tr>
+
+
+        @foreach(var p in ViewBag.result)
+        {
+            <tr>
+                <td>@p.ComplaintId</td>
+                <td>@p.status</td>
+                <td>@p.ComplaintType</td>
+                <td>@p.Comment</td>
+                <td>@p.DateReclamation</td>
+                <td>@p.ClientId</td>
+                <td>@p.ResourceName</td>
+
+
+
+            </tr>
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
